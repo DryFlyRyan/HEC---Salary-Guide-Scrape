@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'dice-logos';
+    src:url('../fonts/dice-logos.eot?-ffffff');
+    src:url('../fonts/dice-logos.eot?#iefix-ffffff') format('embedded-opentype'),
+        url('../fonts/dice-logos.woff?-ffffff') format('woff'),
+        url('../fonts/dice-logos.ttf?-ffffff') format('truetype'),
+        url('../fonts/dice-logos.svg?-ffffff#dice-logos') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="logo-DHI"], [class*=" logo-DHI"] {
+    font-family: 'dice-logos';
+    speak: none;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.logo-DHI-alt:before {
+    content: "\e603";
+}
+
+.logo-DHI:before {
+    content: "\e600";
+}
+
+.logo-DHI-text:before {
+    content: "\e601";
+}
+
+.logo-DHI-text-alt:before {
+    content: "\e602";
+}
+
+footer [class^="logo-DHI"],
+footer [class*=" logo-DHI"],
+#page-footer [class^="logo-DHI"],
+#page-footer [class*=" logo-DHI"] {
+    float: left;
+    font-size: 20pt;
+    margin: -8.6pt 2pt -10pt 0;
+}
+
+[data-role="footer"] [class^="logo-DHI"],
+[data-role="footer"] [class*=" logo-DHI"] {
+    display: inline-block;
+    font-size: 18pt;
+    margin-top: -4pt;
+    vertical-align: middle;
+}

@@ -1,0 +1,335 @@
+/* line 12, ../scss/_remmy.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 106, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 10, ../scss/_base.scss */
+body {
+  overflow-y: scroll !important;
+}
+
+/* line 11, ../scss/_base.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 7, ../scss/_layout.scss */
+[role="document"] {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+/* line 47, ../scss/_remmy.scss */
+[role="document"]:after {
+  clear: both;
+  display: table;
+  height: 0;
+  overflow: hidden;
+  content: '';
+}
+
+/* line 1, ../scss/modules/global/_footer.scss */
+#SC_foot {
+  clear: both;
+  padding-bottom: 2rem;
+  display: none;
+}
+/* line 6, ../scss/modules/global/_footer.scss */
+#SC_foot #averages {
+  padding: 2rem 0 0 0;
+}
+@media only screen and (min-width: 640px) {
+  /* line 6, ../scss/modules/global/_footer.scss */
+  #SC_foot #averages {
+    text-align: center;
+  }
+}
+/* line 14, ../scss/modules/global/_footer.scss */
+#SC_foot #averages h2 {
+  margin: 0;
+  font-size: 24px;
+}
+/* line 19, ../scss/modules/global/_footer.scss */
+#SC_foot #averages dl {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 1rem 0 0 0;
+}
+/* line 47, ../scss/_remmy.scss */
+#SC_foot #averages dl:after {
+  clear: both;
+  display: table;
+  height: 0;
+  overflow: hidden;
+  content: '';
+}
+/* line 24, ../scss/modules/global/_footer.scss */
+#SC_foot #averages dl dt, #SC_foot #averages dl dd {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+/* line 30, ../scss/modules/global/_footer.scss */
+#SC_foot #averages dl dt {
+  font-weight: 400;
+  width: 9rem;
+}
+@media only screen and (min-width: 640px) {
+  /* line 30, ../scss/modules/global/_footer.scss */
+  #SC_foot #averages dl dt {
+    width: auto;
+  }
+}
+/* line 38, ../scss/modules/global/_footer.scss */
+#SC_foot #averages dl dt:after {
+  content: ':';
+}
+/* line 43, ../scss/modules/global/_footer.scss */
+#SC_foot #averages dl dd {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: calc(100% - 10rem);
+}
+@media only screen and (min-width: 640px) {
+  /* line 43, ../scss/modules/global/_footer.scss */
+  #SC_foot #averages dl dd {
+    border-right: solid 1px #5E5E5E;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    width: auto;
+  }
+}
+/* line 58, ../scss/modules/global/_footer.scss */
+#SC_foot #averages dl dd:last-of-type {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 67, ../scss/modules/global/_footer.scss */
+#SC_foot p {
+  margin: 0;
+  padding: 0 0 1rem 0;
+  text-align: center;
+}
+/* line 72, ../scss/modules/global/_footer.scss */
+#SC_foot p #download {
+  background: #F6921E;
+  border-radius: .25rem;
+  color: white;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 1rem 0 0 0;
+  padding: .5rem 4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 85, ../scss/modules/global/_footer.scss */
+#SC_foot p #survey {
+  color: #0099b6;
+  font-size: 1.25rem;
+}
+/* line 90, ../scss/modules/global/_footer.scss */
+#SC_foot p#count {
+  padding-bottom: 0;
+}
+
+/* line 1, ../scss/modules/home/_form.scss */
+#infographic {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 640px) {
+  /* line 1, ../scss/modules/home/_form.scss */
+  #infographic {
+    display: inline;
+  }
+}
+
+/* line 11, ../scss/modules/home/_form.scss */
+#SC_form select {
+  color: black;
+}
+
+/* line 16, ../scss/modules/home/_form.scss */
+#SC_download_form {
+  padding-bottom: 2rem;
+}
+/* line 20, ../scss/modules/home/_form.scss */
+#SC_download_form div .error {
+  opacity: 0;
+}
+/* line 23, ../scss/modules/home/_form.scss */
+#SC_download_form div .error.visible {
+  opacity: 1;
+}
+
+/* line 1, ../scss/modules/home/_article.scss */
+.icon {
+  float: left;
+  margin-right: 20px;
+}
+@media only screen and (min-width: 640px) {
+  /* line 1, ../scss/modules/home/_article.scss */
+  .icon {
+    margin-bottom: 28px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 1, ../scss/modules/home/_article.scss */
+  .icon {
+    margin-bottom: 10px;
+  }
+}
+/* line 13, ../scss/modules/home/_article.scss */
+.icon svg {
+  display: inline-block;
+  width: 2rem;
+}
+@media only screen and (min-width: 640px) {
+  /* line 13, ../scss/modules/home/_article.scss */
+  .icon svg {
+    margin-top: 4px;
+    height: 9rem;
+    width: 6.45rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* line 13, ../scss/modules/home/_article.scss */
+  .icon svg {
+    margin-top: 24px;
+  }
+}
+
+/* line 34, ../scss/modules/home/_article.scss */
+#SC_graph {
+  position: relative;
+}
+/* line 37, ../scss/modules/home/_article.scss */
+#SC_graph #no_results, #SC_graph #no_data {
+  display: none;
+}
+/* line 41, ../scss/modules/home/_article.scss */
+#SC_graph div.svg_container {
+  position: relative;
+}
+@media only screen and (min-width: 640px) {
+  /* line 41, ../scss/modules/home/_article.scss */
+  #SC_graph div.svg_container {
+    height: 0;
+    padding-bottom: 40%;
+    margin-top: 4rem;
+  }
+}
+/* line 50, ../scss/modules/home/_article.scss */
+#SC_graph div.svg_container svg {
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@media only screen and (min-width: 640px) {
+  /* line 50, ../scss/modules/home/_article.scss */
+  #SC_graph div.svg_container svg {
+    display: block;
+  }
+}
+/* line 63, ../scss/modules/home/_article.scss */
+#SC_graph div.svg_container #fill_full {
+  display: none;
+}
+/* line 67, ../scss/modules/home/_article.scss */
+#SC_graph div.svg_container #lines {
+  display: none;
+}
+/* line 71, ../scss/modules/home/_article.scss */
+#SC_graph div.svg_container p {
+  display: none;
+  color: #464646;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 79, ../scss/modules/home/_article.scss */
+#SC_graph div.svg_container p#twentyfive, #SC_graph div.svg_container p#fifty, #SC_graph div.svg_container p#seventyfive {
+  border-bottom: solid 1px #464646;
+  padding: 1rem 0;
+}
+@media only screen and (min-width: 640px) {
+  /* line 79, ../scss/modules/home/_article.scss */
+  #SC_graph div.svg_container p#twentyfive, #SC_graph div.svg_container p#fifty, #SC_graph div.svg_container p#seventyfive {
+    position: absolute;
+    border: none;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 640px) {
+  /* line 90, ../scss/modules/home/_article.scss */
+  #SC_graph div.svg_container p#fifty {
+    left: 50%;
+    top: 15px;
+    -moz-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+  }
+}
+@media only screen and (min-width: 640px) {
+  /* line 99, ../scss/modules/home/_article.scss */
+  #SC_graph div.svg_container p#twentyfive {
+    top: 50%;
+    left: calc(25% - 15px);
+    -moz-transform: translate(-100%, -50%);
+    -ms-transform: translate(-100%, -50%);
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+  }
+}
+@media only screen and (min-width: 640px) {
+  /* line 107, ../scss/modules/home/_article.scss */
+  #SC_graph div.svg_container p#seventyfive {
+    top: 50%;
+    right: calc(25% - 15px);
+    -moz-transform: translate(100%, -50%);
+    -ms-transform: translate(100%, -50%);
+    -webkit-transform: translate(100%, -50%);
+    transform: translate(100%, -50%);
+  }
+}
+/* line 115, ../scss/modules/home/_article.scss */
+#SC_graph div.svg_container p span {
+  display: block;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  padding-bottom: .25rem;
+}
+
+/* line 126, ../scss/modules/home/_article.scss */
+#SC_download {
+  display: none;
+}
+
+/* RYAN DOUGLAS STYLING */
+
+.salary-iframe {
+  height: 800px;
+  border: none;
+}
